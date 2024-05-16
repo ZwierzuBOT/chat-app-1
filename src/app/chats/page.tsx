@@ -1,9 +1,16 @@
-const Chats = () => {
+import FriendsBar from "../components/chat/friends-bar";
+
+const Page = () => {
     return ( 
-        <div className="flex items-center justify-center h-[100vh] w-[100vw]">
-            chats
+        <div className="">
+            <div className="w-[30%] h-screen">
+                <FriendsBar/>
+            </div>
+            <div className="w-[70%] h-screen">
+                {/* <Chat/> */}
+            </div>
         </div>
      );
 }
  
-export default Chats;
+export default Page;
