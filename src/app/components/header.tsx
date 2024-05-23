@@ -34,7 +34,7 @@ const Header = async () => {
         </div>
 
             ):(
-                <div className="w-[30%] flex justify-around h-full items-center">
+                <div className="w-full flex justify-start h-full items-center pl-[5%]">
                     <UserButton/>
                 </div>
             )}
